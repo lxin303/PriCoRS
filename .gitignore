@@ -1,0 +1,36 @@
+__pycache__/
+*.pyc
+*.pyo
+
+# model weights
+*.pth
+*.pt
+*.ckpt
+*.bin
+
+# datasets / outputs
+datasets/
+data/
+results/
+outputs/
+work_dir*/
+checkpoints/
+logs/
+wandb/
+
+# caches
+.cache/
+*.npy
+*.npz
+
+# archives
+*.zip
+*.tar
+*.tar.gz
+
+# IDE
+.vscode/
+.idea/
+
+# system
+.DS_Store
